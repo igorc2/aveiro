@@ -1,3 +1,38 @@
+export const EXPEN = [
+  {
+    label: 'CC Itaú',
+    value: 1243.12,
+    year: 2022,
+    color: '#975FFF',
+    month: '0',
+    id: '1',
+  },
+  {
+    label: 'CC Inter',
+    value: 2363.7,
+    color: "#576EFE",
+    year: 2022,
+    month: '0',
+    id: '2',
+  },
+  {
+    label: 'CC Itaú',
+    value: 1449.12,
+    color: "#975FFF",
+    year: 2022,
+    month: '1',
+    id: '3',
+  },
+  {
+    label: 'CC Inter',
+    value: 263.7,
+    color: "#576EFE",
+    year: 2022,
+    month: '1',
+    id: '4',
+  },
+]
+
 export const EXPENSES = {
   'Janeiro': [
     {
@@ -9,7 +44,7 @@ export const EXPENSES = {
     },
     {
       id: "2",
-      label: "Plano Celular",
+      label: "Plano Celular legal",
       value: 55,
       color: "#FF8555",
       percent: "4%"

@@ -19,7 +19,7 @@ export const Container = styled.TouchableOpacity<ContainerProps>`
   background: #FFF;
 
   overflow: hidden;
-  border: ${({ selected, color }) => selected ? `4px solid ${color}` : 'none'};
+  border: ${({ selected, color }) => selected ? `5px solid ${color}` : 'none'};
 `;
 
 export const Tag = styled.View<TagProps>`
@@ -39,4 +39,9 @@ export const Title = styled.Text`
 
 export const Amount = styled.Text`
   margin-right: 16px;
+`;
+
+export const DateLabel = styled.Text`
+  margin-right: 16px;
+  font-size: 12px;
 `;

@@ -1,6 +1,6 @@
 import React from "react";
 import { TouchableOpacityProps } from 'react-native';
-import { Container, Tag, Title, Amount } from './styles';
+import { Container, Tag, Title, Amount, DateLabel } from './styles';
 
 export type CardProps = {
   id: string;
@@ -31,6 +31,9 @@ export function Card({ data, selected, ...rest }: Props) {
           })
         }
       </Amount>
+      <DateLabel>
+        10/02
+      </DateLabel>
     </Container>
   );
 }

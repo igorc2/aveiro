@@ -5,21 +5,25 @@ import { Container, Title } from './styles';
 
 import { MONTHS } from '../../utils/months';
 
-export type MonthsProps = "Janeiro" | "Fevereiro" | "Março";
+// export type MonthsProps = "Janeiro" | "Fevereiro" | "Março";
+export interface IMonth {
+  label: string
+  id: string
+}
 
 type Props = {
-  selectedValue: MonthsProps;
-  onValueChange: (value: MonthsProps) => void;
+  selectedValue: string;
+  onValueChange: (value: string) => void;
 }
 
 export function Header({ selectedValue, onValueChange }: Props) {
   return (
     <Container>
-      <Title>Categorias</Title>
+      <Title>{JSON.stringify(selectedValue)}</Title>
 
       <Picker
         selectedValue={selectedValue}
-        onValueChange={(itemValue: MonthsProps) => onValueChange(itemValue)}
+        onValueChange={(itemValue: string) => onValueChange(itemValue)}
         style={{
           backgroundColor: '#FFF',
           height: 50,
@@ -30,9 +34,9 @@ export function Header({ selectedValue, onValueChange }: Props) {
         {
           MONTHS.map(item => (
             <Picker.Item
-              key={item.label}
+              key={item.id}
               label={item.label}
-              value={item.label}
+              value={item.id}
             />
           ))
         }
