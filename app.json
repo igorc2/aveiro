@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "aveiro",
+    "slug": "aveiro",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
