@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "919398102728",
+    "project_id": "aveiro-e728c",
+    "storage_bucket": "aveiro-e728c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919398102728:android:f397af9167ada3307a17fd",
+        "android_client_info": {
+          "package_name": "com.aveiro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919398102728-q048dl8f12n1ftcafgkv1e1on8u4qvbe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXEQdPXLQR1Loi_dAwsL2o15eHbAJ1ri0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "919398102728-q048dl8f12n1ftcafgkv1e1on8u4qvbe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
